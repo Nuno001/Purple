@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.cabecalho {
+    padding: 2% 0% 0% 8%;
+}
+
+
+
+.cabecalho__menu {
+    display: flex;
+    gap: 30px;
+
+}
+
+.cabecalho__menu__link{
+    color:#faf9f9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+.cabecalho__menu__link:hover {
+    transition: background-color 0.3s ease-in-out;
+    color: #22D4FD;
+}
+
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.apresentacao__2 {
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.titulo {
+    font-size: 29rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.paragrafo {
+    font-size: 18rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.botaao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.botaov1 {
+    display: inline-flex;
+    justify-content: center;
+    gap: 10px;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16rem;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #faf9f9;
+    border: 2px solid #faf9f9;
+    border-radius: 8px;
+    align-items: center;
+  }
+  
+
+  .icone{
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    align-items: center;
+    }
+
+
+  .botaov1:hover {
+    transition: background-color 0.3s ease-in-out;
+    background-color: #a10000;
+  }
+
+
+.destaque1 {
+    color: #22D4FD;
+
+}
+
+
+.footer {
+    padding: 10px;
+    color: #000000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14rem;
+    line-height: 20px;
+    letter-spacing: 1px;
+}

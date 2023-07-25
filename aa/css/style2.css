@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 8%;
+}
+
+
+
+.cabecalho__menu {
+    display: flex;
+    gap: 30px;
+
+}
+
+.cabecalho__menu__link{
+    color:#faf9f9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+.cabecalho__menu__link:hover {
+    transition: background-color 0.3s ease-in-out;
+    color: #22D4FD;
+}
